@@ -2,8 +2,10 @@
 <html lang='en'>
   <head>
   	<meta charset="utf-8">
-    <title><%= title %></title>
+    <title>Preguntas</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/wide.css" media="only screen and (min-width: 580px) and (min-device-width: 481px)">
+    <link rel="stylesheet" href="/stylesheets/smartphone.css" media="only screen and (max-device-width: 480px)">
   </head>
   <body>
     <div id="page-wrap">
@@ -18,7 +20,7 @@
       </nav>
       <!-- Section -->
       <section class="main" id="s1">
-        <%- body%>
+        <div><%- body%></div>
       </section>
       <!-- Footer -->
       <footer class="main" id="f1">
